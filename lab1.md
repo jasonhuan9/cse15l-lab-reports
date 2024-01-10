@@ -7,7 +7,7 @@ The command `cd`
 1. If you cd with no arugments it returns to the home directory
 ![Image](cd_no_arguments_ex.png)
 
-2. It goes into that directory
+2. It goes into that directory                  
 ![Image](cd_directory.png)
 
 3. When you cd to a file it gives an error that it's not a directory
@@ -28,7 +28,7 @@ The command `ls`
 
 The command `cat`
 
-1. With no arugments it repeats what the user types into the terminal
+1. With no arugments it repeats what the user types into the terminal          
 ![Image](cat_no_args.png)
 
 2. With a path to a directory, it states that path is a directory
