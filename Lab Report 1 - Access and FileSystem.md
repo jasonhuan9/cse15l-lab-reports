@@ -16,7 +16,7 @@ The command `cd`
 
 The command `ls`
 
-1. It lists the files in the directory
+1. It lists the files in the directory                
 ![Image](ls_no_args.png)
 
 2. It lists the files in the specified directory
