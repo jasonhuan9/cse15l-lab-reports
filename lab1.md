@@ -1,3 +1,5 @@
+# Lab 1
+
 1. The command with no arguments
 2. The command with a path to the directory as an argument
 3. The command with a path to a file as an argument
