@@ -29,7 +29,7 @@
 
     ![Image](lab1_files/ls_path_directory.png)
  
-3. My working directory here is home. When I use the command ls to a file, it just lists the path to the file. I believe this isn't an error because it tells the user where the file can be accessed.
+3. My working directory here is home. When I use the command ls on a file, it just lists the path to the file. I believe this isn't an error because it tells the user where the file can be accessed.
 
     ![Image](lab1_files/ls_to_file.png)
 
