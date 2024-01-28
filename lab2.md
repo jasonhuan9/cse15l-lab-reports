@@ -7,15 +7,15 @@
 
 The absolute path to the private key for SSH on local computer:
 
-![private_key](/lab2_files/path_to_private_key.png)
+![private_key](lab2_files/path_to_private_key.png)
 
 The absolute path to the public key for SSH in ieng6:
 
-![public_key](/lab2_files/path_to_public_key.png)
+![public_key](lab2_files/path_to_public_key.png)
 
 Terminal interaction of login without the need for my password:
 
-![login](/lab2_files/ssh_to_ieng6_no_pass.png)
+![login](lab2_files/ssh_to_ieng6_no_pass.png)
 
 ## Part 3 
 
