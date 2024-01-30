@@ -43,7 +43,7 @@ My `handleRequest` method is called. The relevant arugments to this method is `/
 
 ![add message2](lab2_files/add_message2.png)
 
-The method `handleRequest` is called again. It has the same relevant arugments of `/add-message`, `s=` and `user=`. The relevant field is `String s`. String s has the value of the previously recorded message which is `jpolitz: Hello`. String s changes by adding the new message on a seperate line. Here is adds `yash: How+are+you` to string s.
+The method `handleRequest` is called again. It has the same relevant arugments of `/add-message`, `s=` and `user=`. The relevant field is `String s`. String s has the value of the previously recorded message which is `jpolitz: Hello`. String s changes by adding the new message on a seperate line. Here it adds `yash: How+are+you` to string s.
 
 ## Part 2
 
