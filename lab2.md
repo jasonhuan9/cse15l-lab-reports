@@ -39,11 +39,11 @@ class ChatServer {
 
 ![add message1](lab2_files/add_message1.png)
 
-My `handleRequest` method is called. The relevant arugments to this method is `s=` and `user=`. `String s` is a relevant field whose value is an empty string. String s changes by adding the message in the formant `(user): (message)`. In this case it added `jpolitz: Hello` to string s.
+My `handleRequest` method is called. The relevant arugments to this method is `/add-message`, `s=`, and `user=`. `String s` is a relevant field whose value is an empty string. String s changes by adding the message in the formant `(user): (message)`. In this case it added `jpolitz: Hello` to string s.
 
 ![add message2](lab2_files/add_message2.png)
 
-The method `handleRequest` is called again. It has the same relevant arugments of `s=` and `user=`. The relevant field is `String s`. String s has the value of the previously recorded message which is `jpolitz: Hello`. String s changes by adding the new message on a seperate line. Here is adds `yash: How+are+you` to string s.
+The method `handleRequest` is called again. It has the same relevant arugments of `/add-message`, `s=` and `user=`. The relevant field is `String s`. String s has the value of the previously recorded message which is `jpolitz: Hello`. String s changes by adding the new message on a seperate line. Here is adds `yash: How+are+you` to string s.
 
 ## Part 2
 
