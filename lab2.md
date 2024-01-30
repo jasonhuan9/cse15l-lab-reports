@@ -36,6 +36,7 @@ class ChatServer {
 }
 ```
 
+
 ![add message1](lab2_files/add_message1.png)
 
 My `handleRequest` method is called. The relevant arugments to this method is `s=` and `user=`. `String s` is a relevant field whose value is an empty string. String s changes by adding the message in the formant `(user): (message)`. In this case it added `jpolitz: Hello` to string s.
