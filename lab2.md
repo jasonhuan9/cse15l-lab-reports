@@ -43,17 +43,21 @@ My `handleRequest` method is called. The relevant arugments to this method is `/
 
 ![add message2](lab2_files/add_message2.png)
 
-The method `handleRequest` is called again. It has the same relevant arugments of `/add-message`, `s=` and `user=`. The relevant field is `String s`. String s has the value of the previously recorded message which is `jpolitz: Hello`. String s changes by adding the new message on a seperate line. Here is adds `yash: How+are+you` to string s.
+The method `handleRequest` is called again. It has the same relevant arugments of `/add-message`, `s=` and `user=`. The relevant field is `String s`. String s has the value of the previously recorded message which is `jpolitz: Hello`. String s changes by adding the new message on a seperate line. Here is adds `yash: How+are+you` to string s but on a new line.
 
 ## Part 2
 
-The absolute path to the private key for SSH on local computer:
+The absolute path to the private key for SSH on my local computer:
 
 ![private key](lab2_files/path_to_private_key.png)
+
+`/Users/jasonhuang/.ssh/id_rsa.pub`
 
 The absolute path to the public key for SSH in ieng6:
 
 ![public key](lab2_files/path_to_public_key.png)
+
+`/home/linux/ieng6/oce/86/jah053/.ssh/authorized_keys`
 
 Terminal interaction of login without the need for my password:
 
