@@ -51,7 +51,7 @@ The absolute path to the private key for SSH on my local computer:
 
 ![private key](lab2_files/path_to_private_key.png)
 
-`/Users/jasonhuang/.ssh/id_rsa.pub`
+`/Users/jasonhuang/.ssh/id_rsa`
 
 The absolute path to the public key for SSH in ieng6:
 
