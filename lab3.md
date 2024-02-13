@@ -79,7 +79,7 @@ technical $ find . -type d -empty
 
   Another way to use `-empty` is to find empty files. I created an empty text file in `technical/plos`. Then I ran the command `find . -type f -empty` to find all the empty files in the `technical` directory. This is useful if you want to find empty files and want to remove them.
 ```
-technical $ find . -type d -empty
+technical $ find . -type f -empty
         ./plos/empty-file.txt
 ```
 
