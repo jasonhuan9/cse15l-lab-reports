@@ -120,7 +120,7 @@ technical $ find . -name "3"
               ./files/first.txt
               ./files/second.txt
   ```
-  Another way to use this is to search for only directories. This is useful when you need to look for only directories when there is also other things like files.
+  Another way to use this is to search for only directories using `-type d`. This is useful when you need to look for only directories when there is also other things like files.
   ```
   technical $ find . -type d
               .
