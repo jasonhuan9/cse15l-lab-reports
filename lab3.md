@@ -67,13 +67,34 @@ This fixes the issue because before it was taking the new array values which was
 
 I chose the command `find`.
 
-1. The first interesting command line option for `find` is `-empty`
-    One way to use `-empty` is to find empty directories. I created an empty folder called `empty folder` in `technical`. Then I ran the command `find . -type d -empty` to find empty directories.
+1. The first interesting command line option for `find` is `-empty`.
+  One way to use `-empty` is to find empty directories. I created an empty folder called `empty folder` in `technical`. Then I ran the command `find . -type d -empty` to find empty directories. This is useful for when you want to check if any directories are empty before you add/move files into it.
 
-    ![empty_way1](lab3_files/empty_way1.png)
+```
+local $ find . -type d -empty
+        ./empty folder
+``` 
 
-    Another way to use `-empty` is to find empty files. I created an empty text file in `technical/plos`. Then I ran the command `find . -type f -empty` to find all the empty files in the `technical` directory.
+  Another way to use `-empty` is to find empty files. I created an empty text file in `technical/plos`. Then I ran the command `find . -type f -empty` to find all the empty files in the `technical` directory. This is useful if you want to find empty files and want to remove them.
+```
+local $ find . -type d -empty
+        ./plos/empty-file.txt
+```
 
-    ![empty_way2](lab3_files/empty_way2.png)
+2. The second interesting command line option is `-iname`.
+  One way to use `-iname` is to find files by their approximate name. I created a `two` folder with the files `foo.txt`, `foo2.txt`, and `foobar.txt`. This is useful if you have files with similar names and want to find them.
+```
+local $ find . -iname "*foo*txt"
+        ./two/foo.txt
+        ./two/foobar.txt
+        ./two/foo2.txt
+```
 
-2. 
+  Another way to to use it is if you have similar directory names. I created a `foo` directory and a `foobar` directory. This is useful if you have many directories with similar names and want to find all of them.
+  ```
+local $ find . -type d -iname "*foo*"
+        ./foobar
+        ./foo
+```
+
+3. 
