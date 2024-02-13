@@ -65,7 +65,7 @@ This fixes the issue because before it was taking the new array values which was
 
 ## Part 2 - Commands
 
-Note: I used `cd` to the `technical` directory.
+Note: I cded into the `technical` directory.
 
 I chose the command `find`.
 
@@ -105,3 +105,43 @@ technical $ find . -type d -iname "*foo*"
   technical $ find . -name "very-specific.txt`
           ./foo/very-specific.txt
   ```
+
+  Another way to use it is to find a specific directory. In the `foobar` directory, I added new directories inside each other. `3` is the deepest directory. This is useful when you know the name of the directory but it is deep inside other directories and you don't the location of it. 
+```
+technical $ find . -name "3"
+            ./foobar/1/2/3
+```
+
+* The forth command line option is `-type`
+  One way to use this to find files is to use `-type f`. I created a new directory called `files` with the files, `first.txt`, `second.txt`, and `third.txt`. I also made a directory in `files` called `not a file`. This is useful when you want to search only for files and not other things.
+  ```
+  technical $ find ./files -type f
+              ./files/third.txt
+              ./files/first.txt
+              ./files/second.txt
+  ```
+  Another way to use this is to search for only directories. This is useful when you need to look for directories when there is also other things like files.
+  ```
+  technical $ find . -type d
+              .
+              ./government
+              ./government/About_LSC
+              ./government/Env_Prot_Agen
+              ./government/Alcohol_Problems
+              ./government/Gen_Account_Office
+              ./government/Post_Rate_Comm
+              ./government/Media
+              ./plos
+              ./foobar
+              ./foobar/1
+              ./foobar/1/2
+              ./foobar/1/2/3
+              ./empty folder
+              ./foo
+              ./two
+              ./files
+              ./files/not a file
+              ./biomed
+              ./911report
+  ```
+  
