@@ -65,26 +65,28 @@ This fixes the issue because before it was taking the new array values which was
 
 ## Part 2 - Commands
 
+Note: I used `cd` to the `technical` directory.
+
 I chose the command `find`.
 
 * The first interesting command line option for `find` is `-empty`.
   One way to use `-empty` is to find empty directories. I created an empty folder called `empty folder` in `technical`. Then I ran the command `find . -type d -empty` to find empty directories. This is useful for when you want to check if any directories are empty before you add/move files into it.
 
 ```
-local $ find . -type d -empty
+technical $ find . -type d -empty
         ./empty folder
 ``` 
 
   Another way to use `-empty` is to find empty files. I created an empty text file in `technical/plos`. Then I ran the command `find . -type f -empty` to find all the empty files in the `technical` directory. This is useful if you want to find empty files and want to remove them.
 ```
-local $ find . -type d -empty
+technical $ find . -type d -empty
         ./plos/empty-file.txt
 ```
 
 * The second interesting command line option is `-iname`.
   One way to use `-iname` is to find files by their approximate name. I created a `two` folder with the files `foo.txt`, `foo2.txt`, and `foobar.txt`. This is useful if you have files with similar names and want to find them.
 ```
-local $ find . -iname "*foo*txt"
+technical $ find . -iname "*foo*txt"
         ./two/foo.txt
         ./two/foobar.txt
         ./two/foo2.txt
@@ -92,9 +94,14 @@ local $ find . -iname "*foo*txt"
 
   Another way to to use it is if you have similar directory names. I created a `foo` directory and a `foobar` directory. This is useful if you have many directories with similar names and want to find all of them.
   ```
-local $ find . -type d -iname "*foo*"
+technical $ find . -type d -iname "*foo*"
         ./foobar
         ./foo
 ```
 
-* 
+* The third command line option is `-name`.
+  One way to use `-name` is to find files by it's name. In the `foo` directory I created a file called `very-specific.txt`. This is useful when you know the name of a file but not the exact location of it.
+  ```
+  technical $ find . -name "very-specific.txt`
+          ./foo/very-specific.txt
+  ```
