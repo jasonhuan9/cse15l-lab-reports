@@ -67,7 +67,7 @@ This fixes the issue because before it was taking the new array values which was
 
 I chose the command `find`.
 
-1. The first interesting command line option for `find` is `-empty`.
+* The first interesting command line option for `find` is `-empty`.
   One way to use `-empty` is to find empty directories. I created an empty folder called `empty folder` in `technical`. Then I ran the command `find . -type d -empty` to find empty directories. This is useful for when you want to check if any directories are empty before you add/move files into it.
 
 ```
@@ -81,7 +81,7 @@ local $ find . -type d -empty
         ./plos/empty-file.txt
 ```
 
-2. The second interesting command line option is `-iname`.
+* The second interesting command line option is `-iname`.
   One way to use `-iname` is to find files by their approximate name. I created a `two` folder with the files `foo.txt`, `foo2.txt`, and `foobar.txt`. This is useful if you have files with similar names and want to find them.
 ```
 local $ find . -iname "*foo*txt"
@@ -97,4 +97,4 @@ local $ find . -type d -iname "*foo*"
         ./foo
 ```
 
-3. 
+* 
