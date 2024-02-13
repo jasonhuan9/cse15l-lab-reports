@@ -65,4 +65,15 @@ This fixes the issue because before it was taking the new array values which was
 
 ## Part 2 - Commands
 
+I chose the command `find`.
 
+1. The first interesting command line option for `find` is `-empty`
+    One way to use `-empty` is to find empty directories. I created an empty folder called `empty folder` in `technical`. Then I ran the command `find . -type d -empty` to find empty directories.
+
+    ![empty_way1](lab3_files/empty_way1.png)
+
+    Another way to use `-empty` is to find empty files. I created an empty text file in `technical/plos`. Then I ran the command `find . -type f -empty` to find all the empty files in the `technical` directory.
+
+    ![empty_way2](lab3_files/empty_way2.png)
+
+2. 
