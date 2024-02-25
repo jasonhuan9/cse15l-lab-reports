@@ -1,6 +1,6 @@
 *Hello world*
 
-[Lab1 ](lab1.md)
+[Lab 1](lab1.md)
 
 [Lab 2](lab2.md)
 
