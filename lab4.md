@@ -20,7 +20,7 @@ Keys pressed: `cd l <tab><enter>`, I ran `cd/lab7`. Then I pressed `bash t <tab>
 
 ## Fix the code
 
-Keys pressed: `vim L <tab> .j <tab><enter>`, to run `vim ListExamples.java` Then in vim I pressed `r2` to change `index1` to `index2`.
+Keys pressed: `vim L <tab> .j <tab><enter>`, to run `vim ListExamples.java` Then in vim, I pressed `43j e r2 :x` to change `index1` to `index2`.
 
 ![fix code](lab4_files/fixcode.png)
 
