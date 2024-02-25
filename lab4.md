@@ -33,6 +33,6 @@ Keys pressed: `<up><up><enter>`, to run `bash test.sh`, the command was 2 up in 
 
 ## Commit and push the changes to Github
 
-Keys pressed: `git add -A`, to add the files, then `git com<tab> -m fix` to commit the changes, and then `git push` to push the changes to Github 
+Keys pressed: `git add -A`, to add the files, then `git com<tab> -m fix` to commit the changes, and then `git push` to push the changes to Github.
 
 ![commit and push](lab4_files/commitandpush.png)
