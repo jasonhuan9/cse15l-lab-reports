@@ -8,19 +8,19 @@ Keys pressed: `<up><enter>`, the command I ran was `ssh jah053@ieng6.ucsd.edu`, 
 
 ## Cloning my fork of the repository 
 
-Keys pressed: `git clo <tab> <command>v <enter>`, the command I ran was `git clone git@github.com:jasonhuan9/lab7.git`, I copied the ssh url to my clipboard and pasted it after typing git clone.
+Keys pressed: `git <space> clo <tab> <command>v <enter>`, the command I ran was `git clone git@github.com:jasonhuan9/lab7.git`, I copied the ssh url to my clipboard and pasted it after typing git clone.
 
 ![git clone](lab4_files/clone.png)
 
 ## Run the test, showing that they fail
 
-Keys pressed: `cd l <tab><enter>`, I ran `cd/lab7`. Then I pressed `bash t <tab><enter>` to run `bash test.sh`.
+Keys pressed: `cd <space> l <tab><enter>`, I ran `cd/lab7`. Then I pressed `bash t <tab><enter>` to run `bash test.sh`.
 
 ![test fail](lab4_files/testfail.png)
 
 ## Fix the code
 
-Keys pressed: `vim L <tab> .j <tab><enter>`, to run `vim ListExamples.java` Then in vim, I pressed `43j e r2 :x` to change `index1` to `index2`.
+Keys pressed: `vim <space> L <tab> .j <tab><enter>`, to run `vim ListExamples.java` Then in vim, I pressed `43j e r2 :x` to change `index1` to `index2`.
 
 ![vim](lab4_files/vim.png)
 
@@ -35,6 +35,6 @@ Keys pressed: `<up><up><enter>`, to run `bash test.sh`, the command was 2 up in 
 
 ## Commit and push the changes to Github
 
-Keys pressed: `git add -A <enter>`, to add the files, then `git com<tab> -m fix <enter>`, to run `git commit -m fix`, to commit the changes with the message "fix", and then `git push <enter>` to push the changes to Github.
+Keys pressed: `git <space> add <space> -A <enter>`, running `git add -A` to add the files, then `git <space> com<tab> <space> -m <space> fix <enter>`, to run `git commit -m fix`, to commit the changes with the message "fix", and then `git <space> push <enter>`, running `git push` to push the changes to Github.
 
 ![commit and push](lab4_files/commitandpush.png)
