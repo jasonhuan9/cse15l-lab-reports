@@ -14,7 +14,7 @@ Keys pressed: `git <space> clo <tab> <command>v <enter>`, the command I ran was 
 
 ## Run the test, showing that they fail
 
-Keys pressed: `cd <space> l <tab><enter>`, I ran `cd/lab7`. Then I pressed `bash t <tab><enter>` to run `bash test.sh`.
+Keys pressed: `cd <space> l <tab><enter>`, I ran `cd/lab7`. Then I pressed `bash <space> t <tab><enter>` to run `bash test.sh`.
 
 ![test fail](lab4_files/testfail.png)
 
