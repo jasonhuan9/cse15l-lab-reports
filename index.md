@@ -7,3 +7,5 @@
 [Lab 3](lab3.md)
 
 [Lab 4](lab4.md)
+
+[Lab 5](lab5.md)
