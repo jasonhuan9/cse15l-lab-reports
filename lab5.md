@@ -22,4 +22,4 @@ On line 44 in ListExamples.java, replace `index1` with `index2`.
 
 ## Reflection
 
-Something I learned from lab in the second half of the quarter was vim and git. I like vim because if you learn it you could become really quick and efficient at writing code or making quick edits to a file. I believe that learning git is very useful because it allows for collaboration with other.
+Something I learned from lab in the second half of the quarter was vim and git. I like vim because if you learn it, you could become really quick and efficient at writing code or making quick edits to a file. I believe that learning git is very useful because it allows for collaboration on projects with others.
